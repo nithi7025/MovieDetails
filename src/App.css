@@ -1,0 +1,32 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background: #141414;
+  color: white;
+}
+.sectionwrapper{
+padding: 1em;
+}
+.sectionitemwrapper{
+display: flex;
+width: 100%;
+overflow: hidden;
+overflow-y: scroll; 
+}
+.sectionitem:hover{
+transform: scale(1.2);
+}
+.sectionitem> img{
+width: 165px;
+
+}
+.sectionitemwrapper::-webkit-scrollbar {
+  display: none;
+}
+.citemimage{
+  width: 70%;
+  margin: 0px auto;
+  margin-top: 1em;
+}
